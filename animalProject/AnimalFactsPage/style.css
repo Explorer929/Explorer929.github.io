@@ -1,0 +1,33 @@
+body {
+            background-color:black;
+            color:white;
+        }
+        img {
+            margin-left:12%;
+            width:700px;
+        }
+        h2, h3, h4, h5, h6 {
+            text-align:center;
+        }
+        h1 {
+            text-align:center;
+            padding:5px;
+            text-decoration: underline white;
+        }
+        p {
+            text-align:center;
+            font-family:Courier;
+            padding:10px 20px;
+        }
+        a {
+        color:white;
+        }
+        .block {
+            background-color:#4D4D4D;
+            width:970px;
+            margin-left:24%;
+            border:groove;
+        }
+        .sub-header {
+            text-decoration:underline;
+        }
