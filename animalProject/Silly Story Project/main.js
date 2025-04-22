@@ -11,7 +11,7 @@ let insertx = ["Elon Musk", "Jeff Bazos", "Jared Isaacman"];
 let inserty = ["the Kennedy Space Center", "Starbase", "the White House"];
 let insertz = ["Starship blew up", "Artemis III landed on the moon", "he turned into a water bear"];
 
-let storyText = "It was 94 fahrenheit outside, so :insertx: went to watch a rocket launch. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 150 pounds. It was a hot and interesting day.";
+let storyText = "It was 94 fahrenheit outside, so :insertx: went to watch a rocket launch. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bobby saw the whole thing, but was not surprised — :insertx: weighs 150 pounds. It was a hot and interesting day.";
 
 
 randomize.addEventListener('click', result);
@@ -30,7 +30,7 @@ function result() {
 
   if (customName.value !== '') {
     let name = customName.value;
-	newStory = newStory.replaceAll("Bob", name);
+	newStory = newStory.replaceAll("Bobby", name);
   }
   
   
